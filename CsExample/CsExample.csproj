@@ -8,11 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="KD.MinimalApi.Endpoints.Extensions" Version="1.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\MinimalApi.Endpoints.Extensions\MinimalApi.Endpoints.Extensions.fsproj" />
   </ItemGroup>
 
 </Project>

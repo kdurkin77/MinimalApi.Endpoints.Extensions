@@ -11,7 +11,7 @@
     <Product>KD.MinimalApi.Endpoints.Extensions</Product>
     <RepositoryUrl>https://github.com/kdurkin77/MinimalApi.Endpoints.Extensions</RepositoryUrl>
     <PackageProjectUrl>https://github.com/kdurkin77/MinimalApi.Endpoints.Extensions</PackageProjectUrl>
-    <PackageTags>MinimalApi; Minimal; API; Endpoints; Extensions;</PackageTags>
+    <PackageTags>Minimal API; Endpoints; Extensions;</PackageTags>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
     <Version>1.0.0</Version>
   </PropertyGroup>
