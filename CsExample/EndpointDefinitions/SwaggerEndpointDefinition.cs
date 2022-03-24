@@ -10,15 +10,15 @@ namespace CsExample.EndpointDefinitions
         public void DefineServices(WebApplicationBuilder appBuilder)
         {
             appBuilder.Services
-            .AddEndpointsApiExplorer()
-            .AddSwaggerGen();
+                .AddEndpointsApiExplorer()
+                .AddSwaggerGen();
         }
 
         public void DefineEndpoints(WebApplication app)
         {
             app
-            .UseSwagger()
-            .UseSwaggerUI();
+                .UseSwagger()
+                .UseSwaggerUI();
 
             app.MapGet("/", (HttpContext context) => {
                 context.Response.Redirect("/swagger");
