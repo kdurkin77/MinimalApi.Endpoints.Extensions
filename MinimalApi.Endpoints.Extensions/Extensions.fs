@@ -12,7 +12,7 @@ type IEndpointDefinition =
     abstract DefineEndpoints : WebApplication        -> unit
 
 
-[<Extension>]
+[<Extension; Sealed; AbstractClass; >]
 type WebApplicationBuilderExtensions =
 
     [<Extension>]
@@ -55,7 +55,7 @@ type WebApplicationBuilderExtensions =
         |> appBuilder.AddEndpointDefinitions
 
 
-[<Extension>]
+[<Extension; Sealed; AbstractClass;>]
 type WebApplicationExtensions =
 
     [<Extension>]
